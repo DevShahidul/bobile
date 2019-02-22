@@ -96,7 +96,22 @@ textarea {
  /* ==========================================================================
    Bobile custom styles
    ========================================================================== */
-img{max-width: 100%;}
+body{font-size: 32px; line-height: 46px; font-weight: 300; font-family: 'Open Sans', sans-serif; color: #2d2b2b;}
+figure img{max-width: 100%;}
+h2{font-size: 70px; line-height: 88px; font-weight: 600;}
+strong{font-weight: 600;}
+.btn{border-radius: 0;}
+
+/* Header style */
+.navbar-nav .nav-link{font-size: 14px; padding-left: 14px; padding-right: 14px; line-height: 27px; color: #2d2b2b;}
+.main-header-section a.btn{margin-left: 28px; font-size: 14px; line-height: 27px; width: 100px; height: 36px;}
+
+/* Hero style */
+.hero{padding-bottom: 83px; background-image: url(../img/hero-line-pattern.png); background-repeat: no-repeat; background-position: center center;}
+.hero h2{margin-top: 140px; margin-bottom: 35px;}
+.hero p{margin-top: 140px; margin-bottom: 60px;}
+.hero .btn{width: 152px; height: 73px; margin: 0 21px;}
+.click-to-go-next{display: block; margin: 170px auto 0;}
 
 
 
