@@ -131,10 +131,11 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
 .most-clients-need-section figure{text-align: center; margin-left: -10%;}
 .most-clients-need-section .order-last figure{margin-right: -17%; margin-left: 0;}
 .most-clients-need-section .bottom-content{margin-top: 322px;}
+.most-clients-need-section .bottom-content p{margin-bottom: 34px;}
 .most-clients-need-section .question-mark-row{margin-top: 226px;}
 .most-clients-need-section .question-mark-row figure{margin-right: 17%;}
 
-.step-out-section{margin-top: 700px;}
+.step-out-section{margin-top: 665px;}
 .step-bg{margin-top: 135px;}
 .step-bg img{margin-left: -17%;}
 
@@ -158,16 +159,16 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
 .your-all-section .section-title{margin-top: 170px;}
 .your-all-section .section-description{margin-top: 245px;}
 .your-all-section .section-description h2{font-size: 60px;}
-.your-all-section .btn-wrap{margin-top: 500px;}
+.your-all-section .btn-wrap{margin-top: 515px;}
 
 .convert-relationship-section{margin-top: 435px;}
 
 .modal-section{position: absolute;}
-.top-left{left: 8%; top: 40%;}
-.top-right{right: 5%; top: 30%;}
-.bottom-left{bottom: 10%; left: 4%;}
+.top-left{left: 7%; top: 42%;}
+.top-right{right: 6.5%; top: 31.5%;}
+.bottom-left{bottom: 7.5%; left: 3%;}
 .bottom-right{right: 9%; bottom: 16%;}
-.modal-section > button{font-size: 32px; text-decoration: underline; position: relative; border: 0; background: none; cursor: pointer; outline: none;}
+.modal-section > button{font-size: 32px; font-weight: 600; text-decoration: underline; position: relative; border: 0; background: none; cursor: pointer; outline: none;}
 .modal-section > button:active, .modal-section > button:focus{outline: none;}
 .modal-section > button:after{display: inline-block; vertical-align: middle; margin-left: 10px; background-image: url(../img/arrow-right.png); background-repeat: no-repeat; width: 28px; height: 14px; content: "";}
 
@@ -395,5 +396,6 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
     .container{max-width: 1480px;}
     .main-footer-section{max-width: 1840px; margin: 0 auto; clear: both;}
     .main-footer-section .container{max-width: 1555px;}
+    .convert-relationship-section .container{max-width: 1800px;}
 }
 
