@@ -90,133 +90,7 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-
-
- /* ==========================================================================
-   Bobile custom styles
-   ========================================================================== */
-body{font-weight: 300; font-family: 'Open Sans', sans-serif; color: #2d2b2b; overflow-x: hidden;}
-figure img{max-width: 100%;}
-h2{font-size: 70px; line-height: 88px;}
-p,h4{font-size: 32px; line-height: 46px;}
-strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
-.btn-wrap{text-align: center; width: 100%;}
-.btn{border-radius: 0;text-transform: uppercase;}
-
-/* Header style */
-.navbar-expand-lg{padding-left: 0; padding-right: 0;}
-.navbar-expand-lg .navbar-collapse{margin-top: 40px;}
-.navbar-nav .nav-link,.navbar-expand-lg .navbar-nav .nav-link{font-size: 14px; padding-left: 15px; padding-right: 15px; line-height: 27px; color: #2d2b2b; text-transform: uppercase;}
-.main-header-section a.btn{margin-left: 34px; font-size: 14px; line-height: 36px; width: 100px; height: 36px; padding: 0;}
-
-/* Hero style */
-.hero{padding-bottom: 85px; background-image: url(../img/hero-line-pattern.png); background-repeat: no-repeat; background-position: center center; max-width: 1800px; margin: 0 auto; position: relative;}
-.hero:before,.hero:after{position: absolute; bottom: 105px; width: 7px; height: 114px;content: ""; background-color: #1875d2;}
-.hero:before{left: -7px;}
-.hero:after{right: -7px;}
-.hero h2{margin-top: 125px; margin-bottom: 0px;}
-.hero p{margin-top: 48px; margin-bottom: 73px;}
-.btn{width: 252px; height: 73px; margin: 0 21px; padding: 0; font-size: 24px; line-height: 73px;}
-.btn:first-child{margin-left: 0;}
-.btn:last-child{margin-right: 0;}
-.click-to-go-next{display: block; margin: 170px auto 0; cursor: pointer;}
-
-/* Most clients need section style */
-.most-clients-need-section{padding-top: 60px;}
-.most-clients-need-section .row{margin-top: 190px;}
-.most-clients-need-section .row:first-child{margin-top: 230px;}
-.most-clients-need-section .row:nth-child(2){margin-top: 105px;}
-.most-clients-need-section .title-wrap p{margin-bottom: 35px;}
-.most-clients-need-section figure{text-align: center; margin-left: -10%;}
-.most-clients-need-section .order-last figure{margin-right: -17%; margin-left: 0;}
-.most-clients-need-section .bottom-content{margin-top: 322px;}
-.most-clients-need-section .bottom-content p{margin-bottom: 34px;}
-.most-clients-need-section .question-mark-row{margin-top: 226px;}
-.most-clients-need-section .question-mark-row figure{margin-right: 17%;}
-
-.step-out-section{margin-top: 665px;}
-.step-bg{margin-top: 135px;}
-.step-bg img{margin-left: -17%;}
-
-.relationship-section{margin-top: 130px;}
-.relationship-section h2{margin-bottom: 30px;}
-.relationship-section .container{padding-bottom: 285px;}
-.relation-ship-bg{position: absolute; bottom: 0; width: 115.1759%; z-index: -1; margin-left: -6.51466%}
-.relationship-list-wrap{padding-left: 85px;}
-.relationship-list-wrap p{margin: 0;}
-.relationship-list-wrap > p:first-child{margin-top: 205px}
-.relationship-list-wrap > p:last-child{margin-top: 60px}
-.relationship-list-wrap ul{list-style: none; margin: 0; padding: 6px 0 0;}
-.relationship-list-wrap ul li{padding-top: 30px;}
-.relationship-list-wrap ul li * {font-size: 24px; line-height: 35px;}
-.relationship-list-wrap ul li h6{font-weight: 600; margin-bottom: 0;}
-.relationship-list-wrap ul p{margin-bottom: 0;}
-
-.your-all-section .container-fluid{min-height: 1200px; background-position: center center; margin-top: 100px;}
-.your-all-section .container-fluid:last-child{margin-top: 25px;}
-.your-all-section figure{display: none;}
-.your-all-section .section-title{margin-top: 170px;}
-.your-all-section .section-description{margin-top: 245px;}
-.your-all-section .section-description h2{font-size: 60px;}
-.your-all-section .btn-wrap{margin-top: 515px;}
-
-.convert-relationship-section{margin-top: 435px;}
-
-.modal-section{position: absolute;}
-.top-left{left: 7%; top: 42%;}
-.top-right{right: 6.5%; top: 31.5%;}
-.bottom-left{bottom: 7.5%; left: 3%;}
-.bottom-right{right: 9%; bottom: 16%;}
-.modal-section > button{font-size: 32px; font-weight: 600; text-decoration: underline; position: relative; border: 0; background: none; cursor: pointer; outline: none;}
-.modal-section > button:active, .modal-section > button:focus{outline: none;}
-.modal-section > button:after{display: inline-block; vertical-align: middle; margin-left: 10px; background-image: url(../img/arrow-right.png); background-repeat: no-repeat; width: 28px; height: 14px; content: "";}
-
-.modal-section .modal-content{-webkit-box-shadow: 0px 24px 57px 0px rgba(0,0,0,0.21); -moz-box-shadow: 0px 24px 57px 0px rgba(0,0,0,0.21); box-shadow: 0px 24px 57px 0px rgba(0,0,0,0.21); border-radius: 30px;}
-.modal-section .modal-dialog{max-width: 1360px;}
-.modal-section .modal-header{/*padding-top: 160px; padding-bottom: 0; */border: 0;}
-.modal-section .modal-body{padding-top: 90px; padding-bottom: 150px;}
-.modal-section .modal-title{width: 100%; display: block; margin-bottom: 20px;}
-.modal-section button.close{width: 125px; height: 125px; margin-left: auto;}
-.modal-section .usd-price{border-radius: 10px; margin-bottom: 40px; padding: 35px 70px 0; text-align: center;}
-.modal-section .usd-price:first-child{margin-right: 20px;}
-.modal-section .usd-price:last-child{margin-left: 20px;}
-.modal-section .usd-price h2{font-size: 150px; line-height: 120px; position: relative;}
-.modal-section .usd-price sup{font-size: 24px; position: absolute; left: 0; top: 0;}
-.modal-section .review-content{padding: 40px; margin-bottom: 40px;}
-.modal-section .review-content img{margin-top: 40px;}
-.modal-section .review-content img:first-child{margin-top: 0;}
-.modal-section.reviews  .modal-title{margin-bottom: 50px;}
-.modal-section .services-item{margin-top: 75px; padding-right: 45px; padding-left: 45px;}
-
-.pricing .modal-title{margin-bottom: 90px;}
-
-.find-out-link{margin-top: 10px; text-decoration: underline;}
-.find-out-link:hover{text-decoration: none;}
-
-
-/* Footer section style */
-.main-footer-section{padding-top: 75px; padding-bottom: 80px; }
-.main-footer-section h6{font-weight: 600; margin-bottom: 25px; text-transform: uppercase;}
-.footer-logo{float: left; width: 70px;}
-.copyright-text{float: left; width: calc(100% - 70px);}
-.copyright-text p{font-size: 14px; line-height: 22px; margin-bottom: 0;}
-.trustpilot-feed{float: left; clear: both; margin-top: 25px;}
-.trustpilot-feed img{max-width: 100%;}
-.footer-social{float: left; clear: both; margin-top: 30px;}
-.footer-social a{float: left; margin: 0 15px;}
-.footer-social a:first-child{margin-left: 0;}
-.link-wrap a{float: left; clear: both; color: #2d2b2b;}
-
-
-
-
-
-
-
-
-
- /* ==========================================================================
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -297,14 +171,179 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
 }
 
  
+
+
+
+
+ /* ==========================================================================
+   Bobile custom styles
+   ========================================================================== */
+body{font-weight: 300; font-family: 'Open Sans', sans-serif; color: #2d2b2b; overflow-x: hidden;}
+figure img{max-width: 100%;}
+h2{font-size: 70px; line-height: 88px;}
+p,h4{font-size: 32px; line-height: 46px;}
+strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
+.btn-wrap{text-align: center; width: 100%;}
+.btn{border-radius: 0;text-transform: uppercase;}
+
+/* Header style */
+.navbar-expand-lg{padding-left: 0; padding-right: 0;}
+.navbar-expand-lg .navbar-collapse{margin-top: 40px;}
+.navbar-nav .nav-link,.navbar-expand-lg .navbar-nav .nav-link{font-size: 14px; padding-left: 15px; padding-right: 15px; line-height: 27px; color: #2d2b2b; text-transform: uppercase;}
+.main-header-section a.btn{margin-left: 34px; font-size: 14px; line-height: 36px; width: 100px; height: 36px; padding: 0;}
+
+/* Hero style */
+.hero{padding-bottom: 85px; background-image: url(../img/hero-line-pattern.png); background-repeat: no-repeat; background-position: top -50px center; background-size: cover; max-width: 1800px; margin: 0 auto; position: relative;}
+.hero:before,.hero:after{position: absolute; bottom: 105px; width: 7px; height: 114px;content: ""; background-color: #1875d2;}
+.hero:before{left: -7px;}
+.hero:after{right: -7px;}
+.hero h2{margin-top: 125px; margin-bottom: 0px;}
+.hero p{margin-top: 48px; margin-bottom: 73px;}
+.btn{width: 252px; height: 73px; margin: 0 21px; padding: 0; font-size: 24px; line-height: 73px;}
+.btn:first-child{margin-left: 0;}
+.btn:last-child{margin-right: 0;}
+.click-to-go-next{display: block; margin: 170px auto 0; cursor: pointer;}
+
+/* Most clients need section style */
+.most-clients-need-section{padding-top: 60px;}
+.most-clients-need-section .row{padding-top: 190px;}
+.most-clients-need-section .row:first-child{padding-top: 230px;}
+.most-clients-need-section .row:nth-child(2){padding-top: 105px;}
+.most-clients-need-section .title-wrap p{margin-bottom: 35px;}
+.most-clients-need-section figure{text-align: center; margin-left: -10%;}
+.most-clients-need-section .order-last figure{margin-right: -17%; margin-left: 0;}
+.most-clients-need-section .bottom-content{margin-top: 322px;}
+.most-clients-need-section .bottom-content p{margin-bottom: 34px;}
+.most-clients-need-section .question-mark-row{margin-top: 226px;}
+.most-clients-need-section .question-mark-row figure{margin-right: 17%;}
+
+.step-out-section{margin-top: 665px;}
+.step-bg{margin-top: 135px;}
+.step-bg img{margin-left: -17%;}
+
+.relationship-section{margin-top: 130px;}
+.relationship-section h2{margin-bottom: 30px;}
+.relationship-section .container{padding-bottom: 285px;}
+.relation-ship-bg{position: absolute; bottom: 0; width: 115.1759%; z-index: -1; margin-left: -6.51466%}
+.relationship-list-wrap{padding-left: 85px;}
+.relationship-list-wrap p{margin: 0;}
+.relationship-list-wrap > p:first-child{margin-top: 205px}
+.relationship-list-wrap > p:last-child{margin-top: 60px}
+.relationship-list-wrap ul{list-style: none; margin: 0; padding: 6px 0 0;}
+.relationship-list-wrap ul li{padding-top: 30px;}
+.relationship-list-wrap ul li * {font-size: 24px; line-height: 35px;}
+.relationship-list-wrap ul li h6{font-weight: 600; margin-bottom: 0;}
+.relationship-list-wrap ul p{margin-bottom: 0;}
+
+.your-all-section .container-fluid{min-height: 1200px; background-position: center center; margin-top: 100px;}
+.your-all-section .container-fluid:last-child{margin-top: 25px;}
+.your-all-section figure{display: none;}
+.your-all-section .section-title{margin-top: 170px;}
+.your-all-section .section-description{margin-top: 245px;}
+.your-all-section .section-description h2{font-size: 60px;}
+.your-all-section .btn-wrap{margin-top: 515px;}
+
+.convert-relationship-section{margin-top: 435px;}
+
+.modal-section{position: absolute;}
+.top-left{left: 7%; top: 42%;}
+.top-right{right: 6.5%; top: 31.5%;}
+.bottom-left{bottom: 7.5%; left: 3%;}
+.bottom-right{right: 9%; bottom: 16%;}
+.modal-section > button{font-size: 32px; font-weight: 600; text-decoration: underline; position: relative; border: 0; background: none; cursor: pointer; outline: none;}
+.modal-section > button:active, .modal-section > button:focus{outline: none;}
+.modal-section > button:after{display: inline-block; vertical-align: middle; margin-left: 10px; background-image: url(../img/arrow-right.png); background-repeat: no-repeat; width: 28px; height: 14px; content: "";}
+
+.modal-section .modal-content{-webkit-box-shadow: 0px 24px 57px 0px rgba(0,0,0,0.21); -moz-box-shadow: 0px 24px 57px 0px rgba(0,0,0,0.21); box-shadow: 0px 24px 57px 0px rgba(0,0,0,0.21); border-radius: 30px;}
+.modal-section .modal-header{/*padding-top: 160px; padding-bottom: 0; */border: 0;}
+.modal-section .modal-body{padding-top: 90px; padding-bottom: 150px;}
+.modal-section .modal-title{width: 100%; display: block; margin-bottom: 20px;}
+.modal-section button.close{width: 125px; height: 125px; margin-left: auto;}
+.modal-section .usd-price{border-radius: 10px; margin-bottom: 40px; padding: 35px 70px 0; text-align: center;}
+.modal-section .usd-price:first-child{margin-right: 20px;}
+.modal-section .usd-price:last-child{margin-left: 20px;}
+.modal-section .usd-price h2{font-size: 150px; line-height: 120px; position: relative;}
+.modal-section .usd-price sup{font-size: 24px; position: absolute; left: 0; top: 0;}
+.modal-section .review-content{padding: 40px; margin-bottom: 40px;}
+.modal-section .review-content img{margin-top: 40px; max-width: 100%;}
+.modal-section .review-content img:first-child{margin-top: 0;}
+.modal-section.reviews  .modal-title{margin-bottom: 50px;}
+.modal-section .services-item{margin-top: 75px; padding-right: 45px; padding-left: 45px;}
+
+.pricing .modal-title{margin-bottom: 90px;}
+
+.find-out-link{margin-top: 10px; text-decoration: underline;}
+.find-out-link:hover{text-decoration: none;}
+
+
+/* Footer section style */
+.main-footer-section{padding-top: 75px; padding-bottom: 80px; }
+.main-footer-section h6{font-weight: 600; margin-bottom: 25px; text-transform: uppercase;}
+.footer-logo{float: left; width: 70px;}
+.copyright-text{float: left; width: calc(100% - 70px);}
+.copyright-text p{font-size: 14px; line-height: 22px; margin-bottom: 0;}
+.trustpilot-feed{float: left; clear: both; margin-top: 25px;}
+.trustpilot-feed img{max-width: 100%;}
+.footer-social{float: left; clear: both; margin-top: 30px;}
+.footer-social a{float: left; margin: 0 15px;}
+.footer-social a:first-child{margin-left: 0;}
+.link-wrap a{float: left; clear: both; color: #2d2b2b;}
+
+
+
+
+
+
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+   @media only screen and (min-width: 768px) and (max-width: 991px) {
+       
+       h2{font-size: 50px; line-height: 62px;}
+       p, h4{font-size: 26px; line-height: 38px;}
+       
+       .navbar-toggler-icon{height: 2px; margin-top: 7px; position: relative; background: #2d2b2b; display: block;}
+       .navbar-toggler-icon:before,.navbar-toggler-icon:after{position: absolute; left: 0; content: ""; margin-top: -7px; height: 2px; width: 100%; background-color: #2d2b2b;}
+       .navbar-toggler-icon:after{margin-top: 7px;}
+       
+       .main-header-section a.btn{margin-left: 0; margin-top: 20px;}
+       .most-clients-need-section .row:first-child{padding-top: 50px;}
+       .most-clients-need-section .row{padding-top: 150px;}
+       .most-clients-need-section .question-mark-row{margin-top: 0;}
+       .most-clients-need-section .bottom-content{margin-top: 0;}
+       .step-out-section {margin-top: 165px;}
+       .step-bg img{margin-left: 0; max-width: 100%}
+       .your-all-section .section-title{margin-top: 70px;}
+       .convert-relationship-section{margin-top: 200px;}
+       .your-all-section .container-fluid{background-position: top -245px center}
+       
+       .main-footer-section{padding-top: 25px;}
+       .main-footer-section .link-wrap{max-width: 33.333%; flex: 0 0 33.333%; margin-top: 50px;}
+       .main-footer-section .link-wrap:nth-child(2){order: 2;}
+       .main-footer-section .ml-md-auto{max-width: 50%; flex: 0 0 50%; margin-left: 0 !important; width: 50%; margin-top: 50px; order: 5;}
+       .most-clients-need-section figure, .most-clients-need-section .order-last figure, .relation-ship-bg{margin-left: 0; margin-right: 0; max-width: 100%;}
+    }
+
+
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+    .most-clients-need-section .row:first-child{padding-top: 80px}
+    .most-clients-need-section .row{padding-top: 120px;}
+    .most-clients-need-section .question-mark-row{margin-top: 0;}
+    .most-clients-need-section .question-mark-row figure{margin-right: 0;}
+    .most-clients-need-section .bottom-content{margin-top: 80px;}
+    .step-out-section{margin-top: 180px;}
+    .relationship-section, .your-all-section .section-title, .your-all-section .container-fluid{margin-top: 0;}
+    .your-all-section .container-fluid{background-position: top -225px center;}
+    .your-all-section .btn-wrap{margin-top: 280px;}
+    .convert-relationship-section{margin-top: 100px;}
+    
+    .main-footer-section .ml-md-auto{max-width: 30%; flex: 0 0 30%;}
+    .most-clients-need-section figure, .most-clients-need-section .order-last figure, .relation-ship-bg{margin-left: 0; margin-right: 0; max-width: 100%;}
+
 }
 
   
@@ -397,5 +436,6 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
     .main-footer-section{max-width: 1840px; margin: 0 auto; clear: both;}
     .main-footer-section .container{max-width: 1555px;}
     .convert-relationship-section .container{max-width: 1800px;}
+    .modal-section .modal-dialog{max-width: 1360px;}
 }
 
