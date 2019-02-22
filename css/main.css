@@ -98,9 +98,9 @@ textarea {
    ========================================================================== */
 body{font-weight: 300; font-family: 'Open Sans', sans-serif; color: #2d2b2b; overflow-x: hidden;}
 figure img{max-width: 100%;}
-h2{font-size: 70px; line-height: 88px; font-weight: 600;}
+h2{font-size: 70px; line-height: 88px;}
 p{font-size: 32px; line-height: 46px;}
-strong{font-weight: 600;}
+strong, .hero h2,.most-clients-need-section h2{font-weight: 600;}
 .btn{border-radius: 0;text-transform: uppercase;}
 
 /* Header style */
