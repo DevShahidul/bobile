@@ -96,22 +96,36 @@ textarea {
  /* ==========================================================================
    Bobile custom styles
    ========================================================================== */
-body{font-size: 32px; line-height: 46px; font-weight: 300; font-family: 'Open Sans', sans-serif; color: #2d2b2b;}
+body{font-weight: 300; font-family: 'Open Sans', sans-serif; color: #2d2b2b; overflow-x: hidden;}
 figure img{max-width: 100%;}
 h2{font-size: 70px; line-height: 88px; font-weight: 600;}
+p{font-size: 32px; line-height: 46px;}
 strong{font-weight: 600;}
-.btn{border-radius: 0;}
+.btn{border-radius: 0;text-transform: uppercase;}
 
 /* Header style */
-.navbar-nav .nav-link{font-size: 14px; padding-left: 14px; padding-right: 14px; line-height: 27px; color: #2d2b2b;}
+.navbar-nav .nav-link{font-size: 14px; padding-left: 14px; padding-right: 14px; line-height: 27px; color: #2d2b2b; text-transform: uppercase;}
 .main-header-section a.btn{margin-left: 28px; font-size: 14px; line-height: 27px; width: 100px; height: 36px;}
 
 /* Hero style */
 .hero{padding-bottom: 83px; background-image: url(../img/hero-line-pattern.png); background-repeat: no-repeat; background-position: center center;}
 .hero h2{margin-top: 140px; margin-bottom: 35px;}
-.hero p{margin-top: 140px; margin-bottom: 60px;}
-.hero .btn{width: 152px; height: 73px; margin: 0 21px;}
-.click-to-go-next{display: block; margin: 170px auto 0;}
+.hero p{margin-top: 40px; margin-bottom: 60px;}
+.hero .btn{width: 252px; height: 73px; margin: 0 21px; padding: 0; font-size: 24px; line-height: 73px;}
+.click-to-go-next{display: block; margin: 170px auto 0; cursor: pointer;}
+
+/* Most clients need section style */
+.most-clients-need-section{padding-top: 60px;}
+.most-clients-need-section .row{margin-top: 210px;}
+.most-clients-need-section .row:nth-child(2){margin-top: 85px;}
+.most-clients-need-section .title-wrap p{margin-bottom: 35px;}
+.most-clients-need-section figure{text-align: center;}
+
+.step-out-section{margin-top: 690px;}
+.step-bg{margin-top: 135px;}
+.step-bg img{margin-left: -17%;}
+
+.relationship-section{margin-top: 110px;}
 
 
 
@@ -218,6 +232,7 @@ strong{font-weight: 600;}
     /* Style adjustments for viewports that meet the condition */
 }
 
+  
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
@@ -302,4 +317,7 @@ strong{font-weight: 600;}
     }
 }
 
+@media only screen and (min-width: 1440px) {
+    .container{max-width: 1450px;}
+}
 
