@@ -185,7 +185,7 @@ p,h4{font-size: 32px; line-height: 46px;}
 strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
 .btn-wrap{text-align: center; width: 100%;}
 .btn{border-radius: 0;text-transform: uppercase;}
-
+.main{overflow: hidden;}
 /* Header style */
 .navbar-expand-lg{padding-left: 0; padding-right: 0;}
 .navbar-expand-lg .navbar-collapse{margin-top: 40px;}
@@ -325,7 +325,9 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
        .main-footer-section .link-wrap{max-width: 33.333%; flex: 0 0 33.333%; margin-top: 50px;}
        .main-footer-section .link-wrap:nth-child(2){order: 2;}
        .main-footer-section .ml-md-auto{max-width: 50%; flex: 0 0 50%; margin-left: 0 !important; width: 50%; margin-top: 50px; order: 5;}
-       .most-clients-need-section figure, .most-clients-need-section .order-last figure, .relation-ship-bg{margin-left: 0; margin-right: 0; max-width: 100%;}
+       .most-clients-need-section figure, .most-clients-need-section .order-last figure, .relation-ship-bg, .step-bg img{margin-left: 0; margin-right: 0; max-width: 100%;}
+        .hero:before{left: 0;}
+        .hero:after{right: 0;}
     }
 
 
@@ -342,8 +344,9 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
     .convert-relationship-section{margin-top: 100px;}
     
     .main-footer-section .ml-md-auto{max-width: 30%; flex: 0 0 30%;}
-    .most-clients-need-section figure, .most-clients-need-section .order-last figure, .relation-ship-bg{margin-left: 0; margin-right: 0; max-width: 100%;}
-
+    .most-clients-need-section figure, .most-clients-need-section .order-last figure, .relation-ship-bg, .step-bg img{margin-left: 0; margin-right: 0; max-width: 100%;}
+    .hero:before{left: 0;}
+    .hero:after{right: 0;}
 }
 
   
