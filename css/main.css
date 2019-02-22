@@ -99,8 +99,8 @@ textarea {
 body{font-weight: 300; font-family: 'Open Sans', sans-serif; color: #2d2b2b; overflow-x: hidden;}
 figure img{max-width: 100%;}
 h2{font-size: 70px; line-height: 88px;}
-p{font-size: 32px; line-height: 46px;}
-strong, .hero h2,.most-clients-need-section h2{font-weight: 600;}
+p,h4{font-size: 32px; line-height: 46px;}
+strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
 .btn-wrap{text-align: center; width: 100%;}
 .btn{border-radius: 0;text-transform: uppercase;}
 
@@ -171,19 +171,12 @@ strong, .hero h2,.most-clients-need-section h2{font-weight: 600;}
 .modal-section .review-content img{margin-top: 40px;}
 .modal-section .review-content img:first-child{margin-top: 0;}
 .modal-section.reviews  .modal-title{margin-bottom: 50px;}
+.modal-section .services-item{margin-top: 75px; padding-right: 45px; padding-left: 45px;}
 
 .pricing .modal-title{margin-bottom: 90px;}
 
 .find-out-link{margin-top: 10px; text-decoration: underline;}
 .find-out-link:hover{text-decoration: none;}
-
-
-
-
-
-
-
-
 
 
 
@@ -371,5 +364,7 @@ strong, .hero h2,.most-clients-need-section h2{font-weight: 600;}
 
 @media only screen and (min-width: 1440px) {
     .container{max-width: 1450px;}
+    .main-footer-section{padding-top: 75px; padding-bottom: 80px; max-width: 1840px; margin: 0 auto; clear: both;}
+    .main-footer-section .container{max-width: 1555px;}
 }
 
