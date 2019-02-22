@@ -101,17 +101,18 @@ figure img{max-width: 100%;}
 h2{font-size: 70px; line-height: 88px;}
 p{font-size: 32px; line-height: 46px;}
 strong, .hero h2,.most-clients-need-section h2{font-weight: 600;}
+.btn-wrap{text-align: center; width: 100%;}
 .btn{border-radius: 0;text-transform: uppercase;}
 
 /* Header style */
 .navbar-nav .nav-link{font-size: 14px; padding-left: 14px; padding-right: 14px; line-height: 27px; color: #2d2b2b; text-transform: uppercase;}
-.main-header-section a.btn{margin-left: 28px; font-size: 14px; line-height: 27px; width: 100px; height: 36px;}
+.main-header-section a.btn{margin-left: 28px; font-size: 14px; line-height: 36px; width: 100px; height: 36px; padding: 0;}
 
 /* Hero style */
 .hero{padding-bottom: 83px; background-image: url(../img/hero-line-pattern.png); background-repeat: no-repeat; background-position: center center;}
 .hero h2{margin-top: 140px; margin-bottom: 35px;}
 .hero p{margin-top: 40px; margin-bottom: 60px;}
-.hero .btn{width: 252px; height: 73px; margin: 0 21px; padding: 0; font-size: 24px; line-height: 73px;}
+.btn{width: 252px; height: 73px; margin: 0 21px; padding: 0; font-size: 24px; line-height: 73px;}
 .click-to-go-next{display: block; margin: 170px auto 0; cursor: pointer;}
 
 /* Most clients need section style */
@@ -126,6 +127,35 @@ strong, .hero h2,.most-clients-need-section h2{font-weight: 600;}
 .step-bg img{margin-left: -17%;}
 
 .relationship-section{margin-top: 110px;}
+.relationship-section .container{padding-bottom: 285px;}
+.relation-ship-bg{position: absolute; bottom: 0; width: 115.1759%; z-index: -1; margin-left: -6.51466%}
+.relationship-list-wrap p{margin: 0;}
+.relationship-list-wrap > p:first-child{margin-top: 205px}
+.relationship-list-wrap > p:last-child{margin-top: 65px;}
+.relationship-list-wrap ul{list-style: none; margin: 0; padding: 30px 0 0;}
+.relationship-list-wrap ul li * {font-size: 24px; line-height: 35px;}
+.relationship-list-wrap ul li h6{font-weight: 600;}
+.relationship-list-wrap ul p{margin-bottom: 0;}
+
+.your-all-section{margin-top: 100px;}
+.your-all-section .container-fluid{min-height: 1200px; background-position: center center;}
+.your-all-section figure{display: none;}
+.your-all-section .section-title{margin-top: 150px;}
+.your-all-section .section-description{margin-top: 245px;}
+.your-all-section .section-description h2{font-size: 60px;}
+.your-all-section .btn-wrap{margin-top: 500px;}
+
+.convert-relationship-section{margin-top: 435px;}
+
+.modal-section{position: absolute; z-index: 5;}
+.top-left{left: 8%; top: 35%;}
+.top-right{right: 5%; top: 27%;}
+.bottom-left{bottom: 14%; left: 7%;}
+.bottom-right{right: 5%; bottom: 16%;}
+.modal-section > button{font-size: 32px; text-decoration: underline; position: relative; border: 0; background: none;}
+.modal-section > button:after{display: inline-block; vertical-align: middle; margin-left: 10px; background-image: url(../img/arrow-right.png); background-repeat: no-repeat; width: 28px; height: 14px; content: "";}
+
+
 
 
 
