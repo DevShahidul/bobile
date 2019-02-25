@@ -171,7 +171,12 @@ textarea {
 }
 
  
-
+/* Reset the button colors*/
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle,.btn-primary{
+    background-color: #1875d2;
+    border-color: #1875d2;
+}
+.text-primary{color: #1875d2 !important;}
 
 
 
@@ -199,7 +204,7 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
 .hero:after{right: -7px;}
 .hero h2{margin-top: 125px; margin-bottom: 0px;}
 .hero p{margin-top: 48px; margin-bottom: 73px;}
-.btn{width: 252px; height: 73px; margin: 0 21px; padding: 0; font-size: 24px; line-height: 73px;}
+.btn{width: 252px; height: 73px; margin: 0 21px; padding: 0; font-size: 24px; line-height: 70px;}
 .btn:first-child{margin-left: 0;}
 .btn:last-child{margin-right: 0;}
 .click-to-go-next{display: block; margin: 170px auto 0; cursor: pointer;}
@@ -258,7 +263,7 @@ strong, .hero h2,.most-clients-need-section h2, h4{font-weight: 600;}
 .modal-section .modal-header{/*padding-top: 160px; padding-bottom: 0; */border: 0;}
 .modal-section .modal-body{padding-top: 90px; padding-bottom: 150px;}
 .modal-section .modal-title{width: 100%; display: block; margin-bottom: 20px;}
-.modal-section button.close{width: 125px; height: 125px; margin-left: auto;}
+.modal-section button.close{width: 125px; height: 125px; margin-left: auto; opacity: 1;}
 .modal-section .usd-price{border-radius: 10px; margin-bottom: 40px; padding: 35px 70px 0; text-align: center;}
 .modal-section .usd-price:first-child{margin-right: 20px;}
 .modal-section .usd-price:last-child{margin-left: 20px;}
